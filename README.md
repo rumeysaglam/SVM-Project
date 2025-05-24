@@ -72,13 +72,13 @@ The following steps are performed:
 8. Model saving with joblib.
 
 ## 🔗 REST API (FastAPI.py)
-# 📍 Endpoints:
+### 📍 Endpoints:
 Method	URL	        Description
  GET	   /	      Root information & usage guide
  GET	 /test	    Sample predictions
  POST	 /predict	  Make prediction for an applicant
 
-# Example Request:
+### Example Request:
 
 POST /predict
 {
@@ -86,7 +86,7 @@ POST /predict
   "technical_score": 75
 }
 
-# Example Response:
+### Example Response:
 
 {
   "prediction": "✅ Hired",
@@ -95,7 +95,7 @@ POST /predict
   "technical_score": 75
 }
 
-# Run the API:
+### Run the API:
 
 uvicorn FastAPI:app --reload
 
