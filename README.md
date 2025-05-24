@@ -21,12 +21,19 @@ This project is an intelligent hiring decision support system designed for HR de
 ## 📂 Project Structure
 
 SVM_Project/
+
 │
+
 ├── SVM_Project.py # Data generation, model training, evaluation & visualization
+
 ├── FastAPI.py # FastAPI app for model serving
+
 ├── model.joblib # Saved SVM model
+
 ├── scaler.joblib # Saved StandardScaler
+
 ├── README.md # Project documentation
+
 
 ## 🛠 Dependencies
 
