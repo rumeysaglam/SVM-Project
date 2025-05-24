@@ -99,8 +99,6 @@ POST /predict
 
 uvicorn FastAPI:app --reload
 
-Access the documentation: http://127.0.0.1:8000/docs
-
 ## Future Improvements
 Try other SVM kernels (e.g., rbf, poly) to handle non-linear relationships.
 
